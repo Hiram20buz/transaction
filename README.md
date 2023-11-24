@@ -35,3 +35,12 @@ This is the transaction
 <img width="1377" alt="Screen Shot 2023-11-23 at 22 52 57" src="https://github.com/Hiram20buz/transaction/assets/112133798/0cce5a80-5949-4e07-8f9d-1433520f2c9b">
 This is the base64 file
 <img width="1602" alt="Screen Shot 2023-11-23 at 22 53 09" src="https://github.com/Hiram20buz/transaction/assets/112133798/6ae0b360-a9cc-4c6c-ae87-dd2c95f9d82b">
+
+## You can get back  a file from a transaction 
+ ```
+node testCreateFileFromTransaction/createFileFromTicket.js
+```
+<img width="1164" alt="Screen Shot 2023-11-23 at 22 56 10" src="https://github.com/Hiram20buz/transaction/assets/112133798/71b66101-57ca-4e06-b551-f1c60f30fa1e">
+
+<img width="1210" alt="Screen Shot 2023-11-23 at 22 57 03" src="https://github.com/Hiram20buz/transaction/assets/112133798/d1ebe82d-e1fb-495b-b2e4-e12fed993daf">
+<img width="1407" alt="Screen Shot 2023-11-23 at 22 57 20" src="https://github.com/Hiram20buz/transaction/assets/112133798/5a9b3133-b10c-48a3-b33f-ee329722bc75">
