@@ -17,7 +17,9 @@ For example, for etherum:
 - https://goerli.infura.io/v3/API-KEY
 
 # FOR MORE INFORMATION GO TO 
-[pre-requirements](./pre-requirements)
+[Info](./pre-requirements)
+
+[pre-requirements](./pre-requirements/Info.md)
 ## You need to create .env file
 Example:
 ```
