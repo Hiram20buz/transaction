@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base64 Encoding Example</title>
+</head>
+<body>
+
+<h1>Base64 Encoding Example</h1>
+
+<!-- String encoding -->
+<div>
+    <h2>String Encoding</h2>
+    <textarea id="textInput" placeholder="Enter text"></textarea>
+    <button onclick="encodeString()">Encode String</button>
+    <div id="encodedString"></div>
+</div>
+
+<!-- File encoding -->
+<div>
+    <h2>File Encoding</h2>
+    <input type="file" id="fileInput" onchange="encodeFile()">
+    <div id="encodedFile"></div>
+</div>
+
+<script>
+    // Function to encode a string to Base64
+    function encodeString() {
+        var textInput = document.getElementById('textInput').value;
+        var encodedString = btoa(textInput);
+        document.getElementById('encodedString').innerText = 'Encoded String: ' + encodedString;
+    }
+
+    // Function to encode a file to Base64
+    function encodeFile() {
+        var fileInput = document.getElementById('fileInput');
+        var file = fileInput.files[0];
+
+        var reader = new FileReader();
+        
+        reader.onload = function(e) {
+            var encodedFile = e.target.result.split(',')[1]; // Get the Base64 content
+            document.getElementById('encodedFile').innerText = 'Encoded File: ' + encodedFile;
+            console.log(encodedFile);
+        };
+
+        reader.readAsDataURL(file);
+    }
+</script>
+
+</body>
+</html>
