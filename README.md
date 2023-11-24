@@ -15,6 +15,9 @@ Then, get your API key for the network you want.
 For example, for etherum:
 - https://mainnet.infura.io/v3/API-KEY
 - https://goerli.infura.io/v3/API-KEY
+
+# FOR MORE INFORMATION GO TO 
+[pre-requirements](./pre-requirements)
 ## You need to create .env file
 Example:
 ```
