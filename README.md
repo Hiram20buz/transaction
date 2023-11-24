@@ -17,3 +17,7 @@ SIGNER_PRIVATE_KEY_PRO = "any-wallet"
 SIGNER_PRIVATE_KEY_CLIENT = "any-wallet""
 RECEIVER_ADDRESS = "any-wallet""
 ```
+## Run a test
+```
+node testsGetBalance/checkBalance.js
+```
