@@ -4,7 +4,17 @@ transaction web3 etherum
 npm i
 
 npm list
+## You need to create an account ON INFURA.IO
+[HOW TO CREATE AN ACCOUNT ON INFURA.IO
+](https://www.youtube.com/watch?v=NcKMBgNsBuw)
 
+Go to [Infura](https://www.infura.io/) and create an account or login.
+
+Then, get your API key for the network you want.
+
+For example, for etherum:
+- https://mainnet.infura.io/v3/API-KEY
+- https://goerli.infura.io/v3/API-KEY
 ## You need to create .env file
 Example:
 ```
