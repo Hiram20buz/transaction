@@ -25,7 +25,7 @@ async function sendFile(base64String) {
   
   // Creating a signing account from a private key
   const signer = web3.eth.accounts.privateKeyToAccount(
-    process.env.SIGNER_PRIVATE_KEY,
+    process.env.SIGNER_PRIVATE_KEY_CLIENT,
   );
   web3.eth.accounts.wallet.add(signer);
   const gasAmount = await web3.eth
