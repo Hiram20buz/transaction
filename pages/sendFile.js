@@ -3,6 +3,7 @@ const { ETH_DATA_FORMAT, DEFAULT_RETURN_FORMAT } = require("web3");
 const fs = require('fs');
 require("dotenv").config();
 
+
 function encodeFile() {
   var fileInput = document.getElementById('fileInput');
   var file = fileInput.files[0];
