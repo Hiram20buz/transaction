@@ -19,4 +19,3 @@ async function getBalance(walletAddress) {
 }
 getBalance("0x4aEDCf52EEDda3841D80E8A307CD3Cd4AfD2679b");
 getBalance("0x599855fd6E15A92B0Eb77453Aa483C9E6b004635");
-
