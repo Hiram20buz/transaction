@@ -1,5 +1,4 @@
 var { Web3 } = require("web3");
-//const address = '0x4aEDCf52EEDda3841D80E8A307CD3Cd4AfD2679b' // Your account address goes here
 require("dotenv").config();
 
 const network = process.env.ETHEREUM_NETWORK;
